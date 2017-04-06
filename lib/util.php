@@ -1129,7 +1129,7 @@ class Utils {
 			$dateLastSeen = trim($row['objectlastseen']);
 			//echo "---Date=" . $dateLastSeen . "\n";
 			if ($dateLastSeen != "")
-				echo "   DateObserved=" . ($this->getJulianDay($dateLastSeen) + 1) . "\n";
+				echo "   DateObserved=" . ($this->getJulianDay($dateLastSeen)) . "\n";
 			
 // 			while (list($key, $value) = each($row))
 // 				echo "---" . $key . "=" . $value . "\n";
